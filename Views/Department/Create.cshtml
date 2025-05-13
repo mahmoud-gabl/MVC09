@@ -1,0 +1,16 @@
+﻿@model DepartmentEditViewModel
+@{
+    ViewData["Title"] = "Create";
+    ViewBag.Action = "Create";
+
+}
+
+<h1>Create New Department</h1>
+<partial name="Partial/CreateEditDepartmentPartial"/>
+
+
+@section ValidationScripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}
+
